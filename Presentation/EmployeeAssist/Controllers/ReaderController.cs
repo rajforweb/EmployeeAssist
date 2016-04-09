@@ -28,7 +28,7 @@ namespace EmployeeAssist.Controllers
                 SubCategoryOptions = defaultListItem
             };
 
-            return View(model);
+            return View(model); 
         }
 
         [HttpPost]
